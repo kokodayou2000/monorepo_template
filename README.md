@@ -66,3 +66,6 @@ pnpm add -D -w lint-staged
 pnpm exec lint-staged --config ./lint-staged.config.cjs
 
 后期修改
+
+"type": "module" 和 "type": "commonjs" 是 Node.js 项目的两种模块系统
+不太一样，但是将 js 文件 修改成 cjs 文件能解决一些问题

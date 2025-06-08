@@ -1,7 +1,7 @@
 import { add } from '@monorepo/utils'
 
 function main() {
-  return `sum:, ${add(1, 2)}`
+  return `sum: ${add(1, 2)}`
 }
 
 export function test(x: number, y: number) {
