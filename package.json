@@ -9,7 +9,8 @@
   "scripts": {
     "__eslit__comment__": "查阅eslint文档 https://eslint.org/docs/latest/use/command-line-interface 了解cli工具的options",
     "lint": "eslint ./ --ext .ts,.js,.tsx --max-warnings=0",
-    "lint:fix": "eslint ./ --ext .ts,.ts,.js,.tsx  --fix"
+    "lint:fix": "eslint ./ --ext .ts,.ts,.js,.tsx  --fix",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.14.1",
@@ -22,6 +23,8 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
