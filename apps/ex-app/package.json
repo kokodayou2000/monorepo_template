@@ -1,0 +1,15 @@
+{
+  "name": "@monorepo/ex-app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "monorepo example app",
+  "author": "",
+  "license": "",
+  
+  "scripts": {
+    "debug": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@monorepo/utils": "workspace:^"
+  }
+}
