@@ -62,3 +62,5 @@ pnpm exec husky init
 
 使用 hooks 来再代码提交前做样式检查
 pnpm add -D -w lint-staged
+
+pnpm exec lint-staged --config ./lint-staged.config.cjs
