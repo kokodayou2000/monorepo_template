@@ -24,7 +24,7 @@ module.exports = {
   '*.{js,jsx,ts,tsx}': async (files) => {
     const filteredFiles = await removeIgnoredFiles(files)
     return [
-      `eslint --fix --max-warnings 0 ${filteredFiles} --max-warning=0`,
+      `eslint --fix --max-warnings 0 ${filteredFiles}`,
       // 'git add', // 将修复后的变更重新暂存
     ]
   },
