@@ -1,7 +1,11 @@
-import { add } from '@monorepo/utils';
+import { add } from '@monorepo/utils'
 
 function main() {
-  console.log('sum:', add(1, 2));
+  return `sum:, ${add(1, 2)}`
 }
 
-main();
+export function test(x: number, y: number) {
+  return [x, y]
+}
+
+main()
