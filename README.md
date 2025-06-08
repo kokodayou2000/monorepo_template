@@ -1,4 +1,6 @@
 
+base 只提供最简陋的模板
+
 1. 创建目录 package 等
 
 pnpm add -w -D typescript ts-node @types/node
