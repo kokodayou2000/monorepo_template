@@ -12,3 +12,6 @@ pnpm add -w -D typescript ts-node @types/node
 创建子项目的 package tsconfig.json 
 
 注意 导入根目录下的 tsconfig.option.json 文件
+
+
+pnpm add "@monorepo/utils" --workspace
